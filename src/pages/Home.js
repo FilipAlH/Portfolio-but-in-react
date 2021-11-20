@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div className="col tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="home-tab">
+    <div className="col tab-pane fade show active m-5" id="about" role="tabpanel" aria-labelledby="home-tab">
                 <div className="d-flex justify-content-center p-3 row">
                     <div className="card mb-3 mt-5 d-flex shadow colorW">
                         <div className="row g-0 d-flex" id="profile-card">
