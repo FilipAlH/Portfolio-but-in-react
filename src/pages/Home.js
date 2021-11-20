@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Home() {
+    
   return (
     <div className="col tab-pane fade show active m-5" id="about" role="tabpanel" aria-labelledby="home-tab">
                 <div className="d-flex justify-content-center p-3 row">
@@ -25,11 +26,11 @@ export default function Home() {
                     </div>
 
                     <div className="row" id="links">
-                            <button type="button" className="btn btn-outline-primary col-3 shadow" id="btn" onclick="window.open('https://filip.a.11@hotmail.com', '_blank')"><img src="email.png" class="" alt="email"/><span>Contact me!</span></button>
-                            <button type="button" className="btn btn-outline-primary col-3 shadow" id="btn"><img src="phone-call.png" class="" alt="email"/><span>647-781-7768</span></button>
-                            <button type="button" className="btn btn-outline-primary col-3 shadow" id="btn" onclick="window.open('https://github.com/FilipAlH', '_blank')"><img src="github.png" class="" alt="github"/> <span>Check me out on github!</span></button>
-                            <button type="button" className="btn btn-outline-primary col-3 shadow" id="btn" onclick="window.open('https://www.linkedin.com/in/filip-al-32b023200/', '_blank')"><img src="linkedin.png" class="" alt="linkedin"/><span>LinkedIn</span></button>
-                            <button type="button" className="btn btn-outline-primary col-3 shadow" id="btn"><img src="document.png" class="" alt="pdf"/><a href="Resume-Filip-Al-Hamadani.pdf" download target="__blank"><span>my resume</span></a></button>
+                        <a href='emailto:https://filip.a.11@hotmail.com' target="_blank" rel="noreferrer" className="btn btn-outline-primary col-3 shadow" id="btn"><img src="email.png" class="" alt="email"/><span>Contact me!</span></a>
+                        <div className="btn btn-outline-primary col-3 shadow" id="btn"><img src="phone-call.png" class="" alt="email"/><span>647-781-7768</span></div>
+                        <a href='https://github.com/FilipAlH' target="_blank" rel="noreferrer" className="btn btn-outline-primary col-3 shadow" id="btn"><img src="github.png" class="" alt="github"/> <span>Check me out on github!</span></a>
+                        <a href='https://www.linkedin.com/in/filip-al-hamadani-32b023200/' target="_blank" rel="noreferrer" className="btn btn-outline-primary col-3 shadow" id="btn"><img src="linkedin.png" class="" alt="linkedin"/><span>LinkedIn</span></a>
+                        <a href='./Resume-Filip-Al-Hamadani.pdf' download target="_blank" rel="noreferrer" className="btn btn-outline-primary col-3 shadow" id="btn"><img src="document.png" class="" alt="pdf"/><span>my resume</span></a>
                     </div>
                     <div className="reference">Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
                 </div>

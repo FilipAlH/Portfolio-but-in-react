@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom'
 
 export default function Projects() {
   return (
+      <div>
+    <div className="row-12"> 
+          <ul className="nav nav-tabs colorP" id="myTab" role="tablist">
+            <li className="nav-item" role="presentation"><button class="nav-link"><a href="#project1">Weather Tracker</a></button></li>
+            <li className="nav-item" role="presentation"><button class="nav-link"><a href="#project2">CSS CheatSheet</a></button></li>
+            <li className="nav-item" role="presentation"><button class="nav-link"><a href="#project3">Stock Discussion Tracker</a></button></li>
+            <li className="nav-item" role="presentation"><button class="nav-link"><a href="#project4">Teach Thru Talk</a></button></li>
+          </ul>
+        </div>
     <div className="row-12">
         <section className="col projects">
             <figure className="row-8 m-4" id="project1">
@@ -44,6 +53,7 @@ export default function Projects() {
                 </h3>
             </figure>
         </section>
+    </div>
     </div>
   );
 }
